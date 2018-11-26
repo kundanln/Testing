@@ -4,7 +4,6 @@ import {IProduct} from './products';
 //this is used send and receive data usinf http  request
 import {HttpClient} from '@angular/common/http';
 import {Observable, throwError} from 'rxjs';
-import {catchError, tap} from 'rxjs/Operators';
 import { HttpErrorResponse } from '@angular/common/http';
 
 @Injectable({
